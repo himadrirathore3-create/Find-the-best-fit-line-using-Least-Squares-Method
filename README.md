@@ -50,3 +50,19 @@ b = Y_mean - m * X_mean
 
 print(m, b)
 y_predicted = m * X + b
+print(y_predicted)
+```
+![image](https://github.com/user-attachments/assets/b79fb35b-c130-48ca-b24c-56f9e60af9d3)
+```
+plt.scatter(X,Y)
+plt.plot(X,y_predicted,color='red')
+plt.show()
+```
+![image](https://github.com/user-attachments/assets/42e844f6-c9a3-4d66-b459-8b0bffb0e985)
+
+
+
+## Result:
+Thus the univariate Linear Regression was implemented to fit a straight line using least squares using python programming.
+
+
